@@ -5,3 +5,10 @@ flag: default.myName
 availableValues:
   - Summer
   - Ryan
+  - Michelle
+conditions:
+  - group:
+      operator: and
+      name: iphone users
+    value: Summer
+value: Ryan
